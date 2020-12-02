@@ -1,10 +1,17 @@
 [package]
-name = "dev-server"
+name = "dev-forwarding-server"
 version = "0.1.0"
 authors = ["Marcus Buffett <marcusbuffett@me.com>"]
+description = "Split API and other requests to different ports"
+homepage = "https://github.com/marcusbuffett/dev-forwarding-server"
+repository = "https://github.com/marcusbuffett/dev-forwarding-server"
 edition = "2018"
+keywords = ["cli", "tool", "proxy"]
+license = "MIT"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "dev-forwarding-server"
+path = "src/main.rs"
 
 [dependencies]
 hyper-reverse-proxy = "0.4"

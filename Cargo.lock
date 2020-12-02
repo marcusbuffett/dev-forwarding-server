@@ -136,7 +136,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "dev-server"
+name = "dev-forwarding-server"
 version = "0.1.0"
 dependencies = [
  "clap",
